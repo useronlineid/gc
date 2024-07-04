@@ -3,7 +3,7 @@ document.getElementById('saveImage').addEventListener('click', function() {
     const notes = document.getElementById('notes').value || "-";
     const accountNumber = document.getElementById('accountNumber').value || "-";
     const amount = document.getElementById('amount').value || "-";
-    const referenceNumber = document.getElementById('referenceNumber').value || "-";
+    const Earnedmoney = document.getElementById('Earnedmoney').value || "-";
  
     // สร้างหน้าใหม่และเปิด
     const outputWindow = window.open('', '', 'width=674.5,height=953.5');
@@ -42,8 +42,8 @@ ${accountNumber} ซึ่งต่อไปในบันทึกข้อต
                 ข้อ1 ข้อตกลงในการยืนยันการรับยอดเงิน<br>
                 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                 หลังจากสมาชิกทำการ${notes} จำนวนเงิน ${amount} บาท เรียบร้อยแล้ว สามารถเบิกถอนเงิน
-ได้ทั้งหมด ${referenceNumber} บาท ทันที โดยไม่ติดเงื่อนไขเกี่ยวกับระบบ หากสมาชิกทำการ${notes}
-เรียบร้อยแล้ว หากมีระบบผิดพลาด หรือขัดข้อง ทางบริษัทจะรับผิดชอบยอดเงิน ${referenceNumber} บาท 
+ได้ทั้งหมด ${Earnedmoney} บาท ทันที โดยไม่ติดเงื่อนไขเกี่ยวกับระบบ หากสมาชิกทำการ${notes}
+เรียบร้อยแล้ว หากมีระบบผิดพลาด หรือขัดข้อง ทางบริษัทจะรับผิดชอบยอดเงิน ${Earnedmoney} บาท 
 ให้กับสมาชิกโดยทันที
                 </p>     
 
